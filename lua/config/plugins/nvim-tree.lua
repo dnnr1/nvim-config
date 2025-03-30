@@ -23,6 +23,7 @@ return {
 				indent_markers = {
 					enable = false,
 				},
+				highlight_git = true,
 				icons = {
 					git_placement = "after",
 					show = {
@@ -56,6 +57,9 @@ return {
 			},
 			filesystem_watchers = {
 				enable = false,
+			},
+			filters = {
+				git_ignored = false,
 			},
 		})
 		local keymap = vim.keymap
