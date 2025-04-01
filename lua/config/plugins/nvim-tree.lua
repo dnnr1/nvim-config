@@ -56,7 +56,7 @@ return {
 				},
 			},
 			filesystem_watchers = {
-				enable = false,
+				enable = true,
 			},
 			filters = {
 				git_ignored = false,
