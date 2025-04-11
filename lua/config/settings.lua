@@ -53,3 +53,7 @@ opt.showmode = false
 -- Miscellaneous settings
 api.nvim_create_autocmd("VimResized", { command = "wincmd =" })
 api.nvim_create_autocmd({ "CursorMoved", "BufEnter", "WinEnter" }, { command = "normal! zz" })
+
+-- Disable mouse
+vim.keymap.set("n", "<ScrollWheelUp>", "<Nop>", { silent = true })
+vim.keymap.set("n", "<ScrollWheelDown>", "<Nop>", { silent = true })

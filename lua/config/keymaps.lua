@@ -35,8 +35,6 @@ keymap.set("n", "<leader>]", ":bnext<CR>", { desc = "Go to next buffer" })
 keymap.set("n", "<leader>[", ":bprevious<CR>", { desc = "Go to previous buffer" })
 
 -- Navigation Mappings
-keymap.set("n", "<C-j>", "10j", { desc = "Move down 10 lines" })
-keymap.set("n", "<C-k>", "10k", { desc = "Move up 10 lines" })
 keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to left window" })
 keymap.set("n", "<C-l>", "<C-w>l", { desc = "Go to right window" })
 
