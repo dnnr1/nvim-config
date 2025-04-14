@@ -26,9 +26,7 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 
 -- Goodies Mappings
 keymap.set("n", "<leader>q", ":q<CR>", { desc = "Quit" })
-keymap.set("n", "<leader>qq", ":qall<CR>", { desc = "Quit all" })
 keymap.set("n", "<leader>w", ":w<CR>", { desc = "Save" })
-keymap.set("n", "<leader>ww", ":wall<CR>", { desc = "Save all" })
 
 -- Buffer Navigation Mappings
 keymap.set("n", "<leader>]", ":bnext<CR>", { desc = "Go to next buffer" })
