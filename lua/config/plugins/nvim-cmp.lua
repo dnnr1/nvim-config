@@ -16,6 +16,7 @@ return {
 		"saadparwaiz1/cmp_luasnip",
 		"rafamadriz/friendly-snippets",
 		"onsails/lspkind.nvim",
+		"dnnr1/lorem-ipsum.nvim",
 	},
 	config = function()
 		local cmp = require("cmp")
