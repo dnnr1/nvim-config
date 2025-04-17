@@ -57,3 +57,7 @@ api.nvim_create_autocmd({ "CursorMoved", "BufEnter", "WinEnter" }, { command = "
 -- Disable mouse
 vim.keymap.set("n", "<ScrollWheelUp>", "<Nop>", { silent = true })
 vim.keymap.set("n", "<ScrollWheelDown>", "<Nop>", { silent = true })
+
+-- Disable arrow keys
+vim.keymap.set("n", "j", "gj", { noremap = true, silent = true })
+vim.keymap.set("n", "k", "gk", { noremap = true, silent = true })
