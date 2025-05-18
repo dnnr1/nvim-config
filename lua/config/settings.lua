@@ -10,7 +10,7 @@ local api = vim.api
 
 -- General settings
 opt.number = true
-opt.relativenumber = true
+opt.relativenumber = false
 opt.clipboard:append("unnamedplus")
 opt.mouse = "a"
 opt.scrolloff = 0
