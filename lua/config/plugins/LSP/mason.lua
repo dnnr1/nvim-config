@@ -24,6 +24,9 @@ return {
 		mason_lspconfig.setup({
 			automatic_installation = true,
 			ensure_installed = {
+				"bashls",
+				"dockerls",
+				"jsonls",
 				"ts_ls",
 				"html",
 				"cssls",
@@ -38,6 +41,7 @@ return {
 				"prettierd",
 				"eslint_d",
 				"stylua",
+				"markdownlint",
 			},
 		})
 	end,
