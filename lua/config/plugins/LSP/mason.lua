@@ -34,6 +34,7 @@ return {
 				"lua_ls",
 				"emmet_ls",
 				"prismals",
+				"clangd",
 			},
 		})
 		mason_tool_installer.setup({

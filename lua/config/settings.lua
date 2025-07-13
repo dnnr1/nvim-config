@@ -42,7 +42,6 @@ opt.smartcase = true
 -- Display settings
 opt.wrap = true
 opt.linebreak = true
-opt.showbreak = "↪ "
 opt.cursorline = true
 opt.termguicolors = true
 opt.background = "dark"

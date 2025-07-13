@@ -85,6 +85,7 @@ return {
 						"sass",
 						"scss",
 						"less",
+						"clangd",
 					},
 				})
 			end,
