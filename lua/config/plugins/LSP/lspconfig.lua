@@ -63,8 +63,6 @@ return {
 					vim.diagnostic.open_float,
 					{ desc = "Show line diagnostics", unpack(opts) }
 				)
-				keymap.set("n", "[d", vim.diagnostic.goto_prev, { desc = "Go to previous diagnostic", unpack(opts) })
-				keymap.set("n", "]d", vim.diagnostic.goto_next, { desc = "Go to next diagnostic", unpack(opts) })
 				keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Show documentation for cursor", unpack(opts) })
 				keymap.set("n", "<leader>rs", ":LspRestart<CR>", { desc = "Restart LSP", unpack(opts) })
 			end,
